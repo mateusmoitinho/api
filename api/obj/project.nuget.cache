@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZqWDVVqmLn45qMj37ypwbHpj11NmXivfHQkQNp/tXm4PVumOj69mwVGWFgsVVTYjQEs6CLMy4DDWiTpc3loVtA==",
+  "dgSpecHash": "2Z5rph4x3gDAecuf8NCTvHgeGjSiZn1cD3VaDydqPUd8V7RH1RDo+e3AaUS+QjTVNMgJhEIsCyU/oauSntnz4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mmoitinho\\api\\api.csproj",
+  "projectFilePath": "C:\\Users\\mateu\\api\\api\\api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

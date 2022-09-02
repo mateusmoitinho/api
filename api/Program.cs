@@ -12,10 +12,9 @@ app.MapGet("/AddHeader", (HttpResponse response) =>
 });
 
 
-
 app.MapPost("/saveproduct", (Product product) =>
 {
-    return product.Code + " - " + product.Name;
+    ProductRepository.Add(product);
 });
 
 
@@ -27,7 +26,7 @@ app.MapGet("/getproduct", ([FromQuery] string dateStart, [FromQuery] string date
 //api.app.com/user/{code}
 app.MapGet("/getproduct/{code}", ([FromRoute] string code) =>
 {
-    return code;
+    var product = ProductRepository.GetBy(code);
 });
 
 app.MapGet("/getproductbyheader", (HttpRequest request) =>
